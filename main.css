@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header { 
+    background-color: rgb(255, 170, 0);
+    padding: 15px;
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+header h1{
+    text-align: center;
+    font-family: algerian;
+    font-size:40px;
+}
+nav{
+    padding: 10px;
+    
+}
+    nav a{
+        font-size:20px;  
+        text-decoration: none;
+        color: white;
+        margin: 10px;	
+        }	
+        nav button{
+            background-color:black; 
+            border-radius:15%;
+        }
+
+.bigimage{ 
+    background-image: url('Frontimage.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 340px;
+    width:100%;
+    height: 340px;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    font-family: stencil;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.importance{
+padding-left: 7px;
+ font-size: 23px;
+}
+
+h2{ font-family: stencil;
+    color: rgb(77, 109, 110);
+padding-left: 10px;
+font-size: 40px;
+}
+.collapsible1 {
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+    transition: all ease .5s;
+  }
+
+  .breakf {
+    display: none;
+    overflow: hidden;
+    background-color: white;
+    padding: 20px;
+  }
+  .collapsible2 {
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+  }
+
+  .riceit {
+    display: none;
+    overflow: hidden;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .collapsible3 {
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+  }
+
+  .sambandcurry {
+    display: none;
+    overflow: hidden;
+    background-color: white;
+    padding: 20px;
+  }
+
+  .collapsible4 {
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+  }
+
+  .swts {
+    display: none;
+    overflow: hidden;
+    background-color: white;
+    padding: 20px;
+  }
+
+  .collapsible5 {
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+  }
+
+  .sncks {
+    display: none;
+    overflow: hidden;
+    background-color: white;
+    padding: 20px;
+  }
+
+  footer {text-align: center;
+    margin: 0;
+    background-color: #333;
+    color: #fff;
+    padding-bottom: 5px;
+  
+}
+footer a{ color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
