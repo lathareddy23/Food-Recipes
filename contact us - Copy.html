@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>contact us</title>
+</head>
+<body>
+    <header>
+        <h1><img src="logo1.png" style="left:5px;width:190px;height:90px;float:left;padding: 0px;"><img src="rlogo.png" style="right:5px;width:190px;height:90px;float:right;padding: 0px;">South Indian Recipes</h1>
+       </header>
+       <nav style=" text-align:center;">
+         <button><a href="home..html" >Home</a></button>
+         <button><a href="about.html">About us</a></button>
+        </nav> 
+        <div class="container">
+            <button class="menu-btn" onclick="toggleMenu()">☰ Menu</button>
+            <div class="offcanvas" id="myOffcanvas">
+                <button class="close-btn" onclick="toggleMenu()">×</button>
+                <h2 style="text-align: center;"><u>RECIPE LIST</u></h2>
+                <p>&nbsp;&nbsp;&nbsp;<u>Breakfast</u></p>
+                <ul>
+                    <li><a href="dosa.html" style="text-decoration: none; color: white;">Dosa</a></li>
+                    <li><a href="idly.html" style="text-decoration: none; color: white;">Idly</a></li>
+                    <li><a href="paddu.html" style="text-decoration: none; color: white;">Paddu</a></li>
+                    <li><a href="poori.html" style="text-decoration: none; color: white;">Poori</a></li>
+                    <li><a href="akki rotti.html" style="text-decoration: none; color: white;">Akki Rotti</a></li>
+                </ul>
+                <p>&nbsp;&nbsp;&nbsp;<u>Rice items</u></p>
+                <ul>
+                    <li><a href="lemon rice.html" style="text-decoration: none; color: white;">Lemon Rice</a></li>
+                    <li><a href="curd rice.html" style="text-decoration: none; color: white;">Curd Rice</a></li>
+                    <li><a href="khara pongal.html" style="text-decoration: none; color: white;">Khara Pongal</a></li>
+                    <li><a href="bisi bele bath.html" style="text-decoration: none; color: white;">bisi bele bath</a></li>
+                    <li><a href="vegetable pulao.html" style="text-decoration: none; color: white;">vegetable pulao</a></li>
+                </ul>
+                <p>&nbsp;&nbsp;&nbsp;<u>Sambars and Curry</u></p>
+                <ul>
+                    <li><a href="dal.html" style="text-decoration: none; color: white;">Dal</a></li>
+                    <li><a href="mango curry.html" style="text-decoration: none; color: white;">Mango Curry</a></li>
+                    <li><a href="rasam.html" style="text-decoration: none; color: white;">Rasam</a></li>
+                    <li><a href="vegetable sambar.html" style="text-decoration: none; color: white;">Vegetable Sambar</a></li>
+                    <li><a href="vegetable curry.html" style="text-decoration: none; color: white;">vegetable Curry</a></li>
+                </ul>
+                <p>&nbsp;&nbsp;&nbsp;<u>Sweets</u></p>
+                <ul>
+                    <li><a href="jamun.html" style="text-decoration: none; color: white;">Jamun</a></li>
+                    <li><a href="kajjaya.html" style="text-decoration: none; color: white;">Kajjaya</a></li>
+                    <li><a href="mysore pak.html" style="text-decoration: none; color: white;">Mysore Pak</a></li>
+                    <li><a href="shavige payasa.html" style="text-decoration: none; color: white;">Shavige Payasa</a></li>
+                    <li><a href="carrot halwa.html" style="text-decoration: none; color: white;">Carrot Halwa</a></li>
+                </ul>
+                <p>&nbsp;&nbsp;&nbsp;<u>Snacks</u></p>
+                <ul>
+                    <li><a href="manglore bonda.html" style="text-decoration: none; color: white;">Manglore Bonda</a></li>
+                    <li><a href="masala vada.html" style="text-decoration: none; color: white;">Masala Vada</a></li>
+                    <li><a href="menasinakayi bajji.html" style="text-decoration: none; color: white;">Menasinakayi Bajji</a></li>
+                    <li><a href="nippattu.html" style="text-decoration: none; color: white;">Nippattu</a></li>
+                    <li><a href="onion pakoda.html" style="text-decoration: none; color: white;">Onion Pakoda</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <script>
+            function toggleMenu() {
+                var offcanvas = document.getElementById('myOffcanvas');
+                if (offcanvas.style.left === '0px') {
+                    offcanvas.style.left = '-250px';
+                } else {
+                    offcanvas.style.left = '0px';
+                }
+            }
+        </script>
+        <p style="text-align: center;font-size: 35px;font-family: algerian;"><b><u>Contact&nbsp; us</u></b></p>
+        <p style="font-size:25px;padding-left: 15px;text-align: center;">If you have any questions or suggestions, please feel free to reach out to us:</p><br>
+        <div id="contact">
+        <p style="font-size: 20px;"><img src="rlogo.png" style="float: left;width: 70px;height: 60px;border: 1px solid black;border-radius: 50%;margin-left: 2%;background-color: bisque;">&nbsp;&nbsp;&nbsp;<b><u>Recipe Suggestions</u></b><br><br><a href="mailto:binarybrains2313@gmail.com" style="text-decoration: none;color: black;margin: 10px;">binarybrains2313@gmail.com</a></p><br>
+        <p style="font-size: 20px;"><img src="insta.png" style="float: left;width: 70px;height: 60px;border-radius: 50%;margin-left:2%;">&nbsp;&nbsp;&nbsp;<b><u>Follow us on instagram</u></b><br><br><a href="https://www.instagram.com/?hl=en" style="text-decoration: none;color: black;">@south_indian_recipes_2313</a></p><br>
+        <p style="font-size: 20px;"><img src="whats.png" style="float: left;width: 70px;height: 60px;border-radius: 50%; margin-left: 2%;">&nbsp;&nbsp;&nbsp;<b><u>For queries</u></b><br><br><a href="https://wa.me/+919353386774" style="text-decoration: none;color: black;">&nbsp;&nbsp;&nbsp;CLICK HERE</a></p><br>
+        <p style="font-size: 20px;"><img src="phone.jpg" style="float: left;width: 70px;height: 60px;border: 1px solid black;border-radius: 50%;margin-left: 2%;background-color: bisque;">&nbsp;&nbsp;&nbsp;<b><u>Contact Number</u>:-</b><br><br><a href="tel:+919353386774" style="text-decoration: none;color: black;">&nbsp;&nbsp;&nbsp;&nbsp;93533 86774</a></p>     
+         </div>
+    <div id="maps">
+    <p style="font-size: 20px;"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Address: </b>Holiday Village Road, Vajarahalli Village,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mallasandra, off, Kanakapura Rd, Bengaluru,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Karnataka 560109</p>
+    <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15858.431109820593!2d77.54275747412166!3d12.859288837305623!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae407386b7172d%3A0x1569e8679d608fe0!2sK%20S%20School%20of%20Engineering%20and%20Management!5e0!3m2!1sen!2sin!4v1700752076587!5m2!1sen!2sin" width="400" height="300" style="border:0;margin-left: 40px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+    <footer>
+            <p style="font-size: 25px;"><u>Hot recipes</u></p>
+            <a href="vegetable pulao.html">Vegetable pulao</a>
+            <a href="shavige payasa.html">Shavige payasa</a>
+            <a href="menasinakayi bajji.html">Menasinakayi Bajji</a>
+            <a href="mysore pak.html">Mysore Pak</a>
+            <a href="nippattu.html">Nippattu</a>
+            <a href="rasam.html">Rasam</a>
+            <a href="onion pakoda.html">Onion Pakoda</a>
+            <a href="dosa.html">Dosa</a>
+            <a href="poori.html">Poori</a>
+            <a href="vegetable curry.html">Vegetable Curry</a>
+            <br>
+            <br>
+            <p>&copy; 2023 Southindianrecipes. All rights reserved &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact :<a href="mailto:southindianrecipes2313@gmail.com" style="font-size: 15px; color: white;padding: 0;">&nbsp;&nbsp;southindianrecipes2313@gmail.com</a></p>
+        </footer>
+    </body>
+</html>
